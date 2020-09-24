@@ -8,7 +8,6 @@ h2{
   font-size:70px;
   
 }
-
 button{
   width:90px;
   font-family: 'Poppins',sans-serif;
@@ -19,6 +18,7 @@ button{
   border:none;
   outline:none;
 }
+
 
 button:hover{
   width:91px;
@@ -33,3 +33,42 @@ button:hover{
 .count{
   color:rgb(4, 63, 14);
   font-size:70px;}
+  .reset-btn {
+    border: 1px solid black;
+    padding: 5px 8px;
+    margin-top: 10px;
+    font-size: large;
+    border-radius: 8%;
+  }
+  
+  .reset-btn:focus {
+    outline: 0;
+  }
+  .decrement-btn {
+    background-color: red;
+    border: transparent;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: large;
+    color: white;
+    border-radius: 10%;
+  }
+  
+  .decrement-btn:focus {
+    outline: 0;
+  }
+  
+  .increment-btn {
+    background-color: green;
+    border: transparent;
+    padding: 5px 8px;
+    margin-left: 10px;
+    font-size: large;
+    color: white;
+    border-radius: 10%;
+  }
+  
+  .increment-btn:focus {
+    outline: 0;
+  }
+  
